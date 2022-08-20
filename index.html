@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/931/931949.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div class="container">
+        <h1>Game</h1>  
+
+        <div id="disp">
+
+          <div>
+            <label for="fname">Player names:</label>
+          </div>
+
+        <input type="text" id="fname" name="fname">
+
+        <div>
+          <a>
+            <button class="haloota" onclick="savedata()" id="haloota">Add Player</button>
+          </a>
+        </div>
+
+
+        <div>
+          <button class="haloota" onclick="start()" id="haloota">Start Game</button>
+        </div>
+
+        </div>
+        
+
+        <div id="display">
+
+        <button onclick="haloo()" id="haloo">Press me :)</button>
+        <div class="texti" id="halloo">Lets go</div>
+        </div>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
